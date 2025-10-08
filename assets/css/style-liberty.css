@@ -11475,7 +11475,7 @@ button.owl-next {
 
 .inner-banner {
   background: #614da7;
-  height: 95px; }
+  height: 125px; }
 
 .w3l-breadcrumb {
   background-color: var(--bg-color); }
@@ -11510,15 +11510,15 @@ button.owl-next {
 
 @media (max-width: 991px) {
   .inner-banner {
-    height: 85px; } }
+    height: 105px; } }
 
 @media (max-width: 768px) {
   .inner-banner {
-    height: 75px; } }
+    height: 105px; } }
 
 @media (max-width: 415px) {
   .inner-banner {
-    height: 70px; } }
+    height: 105px; } }
 
 .w3l-stats {
   background-color: var(--bg-color); }
