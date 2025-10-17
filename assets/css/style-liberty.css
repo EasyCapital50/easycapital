@@ -3428,6 +3428,10 @@ input[type="button"].btn-block {
 .card-img-bottom {
   flex-shrink: 0;
   width: 100%; }
+.radius-image-curve {
+  border-radius: 20px; /* adjust value: 15px = subtle, 30px = more rounded */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* optional for soft shadow */
+}
 
 .card-img,
 .card-img-top {
