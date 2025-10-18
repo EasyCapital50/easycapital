@@ -9917,7 +9917,7 @@ input:checked + .mode-container i.gg-moon {
 /*-- //dark and light mode styling --*/
 .navbar .navbar-brand {
   margin: 0;
-  padding: 0;
+  padding: 2px 0px;
   font-size: 30px;
   text-transform: capitalize;
   color: #fff;
@@ -9957,14 +9957,14 @@ input:checked + .mode-container i.gg-moon {
 .navbar-expand-lg .navbar-nav .nav-link.phone {
   text-transform: capitalize;
   transition: all 0.5s ease;
-  padding: 14px 0 10px;
+  padding: 14px 10px;
   font-size: 17px;
   font-weight: 600;
   color: #fff; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   transition: all 0.5s ease;
-  padding: 10px 0 10px;
+  padding: 10px 10px;
   font-size: 18px;
   color: var(--heading-color);
   font-weight: 400;
@@ -10022,7 +10022,7 @@ a.dropdown-item.active {
 header {
   padding: 0px;
   transition: all 0.4s ease 0s;
-  top: 44px !important;
+  top: 0px !important;
   height: 90px;
   display: grid;
   align-items: center; }
@@ -13017,7 +13017,7 @@ ul.page-pagination li a.next:hover {
   .w3l-contact-info iframe {
     height: 300px; } }
 
-@media (max-width: 415px) {
+@media (max-width: 736px) {
   .w3l-contact-info .contact-infos {
     grid-template-columns: 1fr; }
   .w3l-contact-info .text-box h3 {
