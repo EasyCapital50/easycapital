@@ -62,9 +62,11 @@ Author URL: http://w3layouts.com
                             <a class="dropdown-item" href="#LoanProcess">Loan Process </a>
                         </div>
                     </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+            <li class="nav-item">
+  <a class="nav-link contact-btn" href="#contact">Contact</a>
+</li>
+
+
                     <!--/search-right-->
                     <div class="search mr-3">
                         <input class="search_box" type="checkbox" id="search_box">
@@ -379,7 +381,7 @@ As a direct sales agency for leading institutions including Bajaj Finance, Tata 
     <div class="gallery-inner container py-lg-5 py-md-4">
         <div class="row stats-con">
             <div class="col-md-3 col-6 stats_info counter_grid">
-                <p class="counter">1000+</p>
+                <p class="counter">1000</p>
                 <h3>Finished Projects</h3>
             </div>
             <!-- <div class="col-md-3 col-6 stats_info counter_grid1">
@@ -1108,12 +1110,14 @@ Easy Capitals , where opportunities meet confidence.</p>
     </script> -->
     <!-- /move top -->
      <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/919876543210" 
-   id="whatsappButton" 
-   target="_blank" 
-   title="Chat with us on WhatsApp">
-  <img src="assets/images/whatsapp.svg" alt="WhatsApp" width="50" height="50">
+    <a href="https://wa.me/919876543210" id="whatsappButtonicon" target="_blank">
+  <img src="assets/images/whatsappchat_icon.svg" alt="WhatsApp" width="50" height="50">
 </a>
+
+<a href="https://wa.me/919876543210" id="whatsappButton" target="_blank">
+  <img src="assets/images/whatsapp.png" alt="WhatsApp" width="50" height="50">
+</a>
+
 
 <script>
   // Optional: show button only after scrolling down 20px
@@ -1138,6 +1142,42 @@ Easy Capitals , where opportunities meet confidence.</p>
 
 <!-- Basic button positioning -->
 <style>
+/* Add horizontal spacing between navbar items */
+.navbar-nav .nav-item {
+    margin-left: 20px;  /* space between each item */
+}
+
+/* Optional: remove extra margin from first item */
+.navbar-nav .nav-item:first-child {
+    margin-left: 0;
+}
+
+/* Optional: increase spacing inside the Contact button */
+.nav-link.contact-btn {
+    background-color: #6519bd; /* violet */
+    color: #fff !important;     
+    padding: 12px 12px 40px 40px ;         
+    border-radius: 30px;        
+    font-weight: 400;            
+    font-size: 18px;             
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+
+.nav-link.contact-btn:hover {
+  background-color: #6931ff;  /* darker violet on hover */
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+
+.nav-link.contact-btn:hover {
+  background-color: #351885;  /* darker violet on hover */
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+
   #whatsappButton {
     position: fixed;
     bottom: 30px;
@@ -1147,7 +1187,7 @@ Easy Capitals , where opportunities meet confidence.</p>
   }
 
   #whatsappButton img {
-    border-radius: 50%;
+    border-radius: 15px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -1157,6 +1197,7 @@ Easy Capitals , where opportunities meet confidence.</p>
     transform: scale(1.1);
   }
 </style>
+
 
   </section>
   <!-- //copyright -->
