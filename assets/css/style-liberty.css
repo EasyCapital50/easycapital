@@ -13051,3 +13051,9 @@ ul.page-pagination li a.next:hover {
   .my-float {
     margin-top: 14px;
   }
+
+ #site-header  {
+    background: rgba(255, 255, 255, 0.4); /* semi-transparent white */
+    backdrop-filter: blur(12px);          /* frosted glass effect */
+   
+}
