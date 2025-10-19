@@ -105,7 +105,7 @@ Author URL: http://w3layouts.com
         <div class="owl-one owl-carousel owl-theme">
         <div class="item" style="margin-top: 80px;">
   <li>
-    <div class="slider-info banner-view bg bg2" 
+    <div class="slider-info banner-view bg bg2" id="bg-new"
          style="background: url('assets/images/bg2.jpg') center/cover no-repeat; 
                 position: relative; 
                 min-height: calc(100vh - 80px); 
@@ -162,34 +162,63 @@ Author URL: http://w3layouts.com
 </div>
 
           
-            <div class="item">
-                <li>
-                    <div class="slider-info banner-view banner-top2 bg bg2">
-                        <div class="banner-info">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 banner-info-bg">
-                                        <h5>Your Trusted Bridge to Smarter Financing</h5>
-                                        <p class="mt-md-4 mt-3">
-                                        From small startups to large enterprises, we simplify the loan process for every business.  
-                                        Quick approvals, expert support, and personalized financial solutions just for you.
-                                        </p>
+         <div class="item">
+  <li>
+    <div class="slider-info banner-view bg bg2" id="bg-new"
+         style="background: url('assets/images/bg4.jpg') center/cover no-repeat; 
+                position: relative; 
+                min-height: calc(100vh - 80px); 
+                display: flex; 
+                align-items: flex-start; /* align content to top */
+                justify-content: center; 
+                text-align: center; 
+                padding-top: 75px;"> <!-- pushes content slightly down from top -->
 
-                                        <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="#services">Our Services
-                                        </a>
-                                        <!-- <a class="btn btn-style btn-outline-light mt-sm-5 mt-4 mr-2" href="about.html">
-                                            Read More</a> -->
-                                    </div>
-                                    <div class="col-lg-5 col-md-8 offset-lg-1 mt-lg-0 mt-4 text-center">
-                                        <img src="assets/images/icon3.png" alt="Financial Solutions"  class="img-fluid" 
-                                         style="border-radius: 0; box-shadow: none; background: none;">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </div>
+      <!-- Original semi-transparent overlay -->
+      <div style="position: absolute; 
+                  top: 0; 
+                  left: 0; 
+                  width: 100%; 
+                  height: 100%; 
+                  background: rgba(0, 0, 0, 0.4); 
+                  z-index: 0;">
+      </div>
+
+      <!-- New purple opaque overlay -->
+      <div style="position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background: rgba(32, 3, 51, 0.6); /* purple with opacity */
+                  z-index: 0.5;">
+      </div>
+
+      <!-- Content -->
+      <div class="banner-info text-white" style="position: relative; z-index: 1;">
+        <div class="container">
+          <h5 class="fw-bold mb-3" 
+              style="font-size: 3.5rem; font-weight: 800; letter-spacing: 1px; color: #ffff;">
+            Your Trusted Bridge to Smarter Financing
+          </h5>
+
+          <p class="mt-4 mb-5" 
+             style="max-width: 700px; margin: 0 auto; font-size: 1.2rem; color: #e0e0e0;">
+            From small startups to large enterprises, we simplify the loan process for every business.  
+            Quick approvals, expert support, and personalized financial solutions just for you.
+          </p>
+
+          <a href="#services" 
+             class="btn btn-style mt-3" 
+             style="background-color: #ffff; color: #0a043c; font-weight: 600; border-radius: 30px; padding: 10px 30px;">
+            Explore Our Services
+          </a>
+        </div>
+      </div>
+    </div>
+  </li>
+</div>
+
             <!-- <div class="item">
                 <li>
                     <div class="slider-info banner-view banner-top3 bg bg2">
