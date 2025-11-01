@@ -9685,6 +9685,17 @@ p.white {
 .radius-image-full {
   border-radius: var(--border-radius-full); }
 
+  .radius-image-img-fluid {
+  width: 173px;
+  height: 173px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  margin-top: -20px; 
+  margin-left: -0.5px;
+}
+
+
 /*-- container --*/
 .container {
   width: 100%;
